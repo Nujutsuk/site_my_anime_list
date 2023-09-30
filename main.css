@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #8595f0;;
+    padding: 14px;
+}
+
+header h1 {
+    font-family: 'Dela Gothic One', cursive;
+    color: white;
+}
+
+body {
+    background-color:#000000;
+}
+
+body, input ,textarea {
+    font-family: 'Exo 2', sans-serif;
+}
+
+header li {
+    margin-top: 12px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn-expandir {
+    margin-top: -19px;
+}
+
+nav.menu-lateral {
+    width: 75px;
+    height: 100%;
+    background-color: #3f3f3ff1;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #080707b7 ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .6s;
+}
+nav.menu-lateral.expandir{
+    width: 300px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding: 10px;
+}
+.btn-expandir i {
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: 0.6s;
+}
+
+ul li.ativo{
+    background-color: #7c7c7c;
+}
+
+ul li.item-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+ul li.item-menu:hover{
+    background-color: #7c7c7c;;
+}
+ul li.item-menu a .txt-link {
+    margin-left: 65px;
+    transition: .4s;
+    opacity: 0;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 35px;
+    opacity: 1;
+}
+
+
+ul li.item-menu a .icon i {
+    font-size: 27px;
+    margin-left: 10px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    color: white;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.articles article img {
+    /*height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 50%;
+}
+.articles article h3 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: white;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+.articles article p {
+    color: white;
+    font-family: 'Young Serif', serif;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 25%;
+    padding: 10px;
+}
+
+section {
+    padding: 10px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+    padding: 30px;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+section h2 {
+    font-size: 32px;
+}
+
+#register .container {
+    display: block;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+#register .container div h3 {
+    color: white;
+    padding: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+}
+
+form button {
+    background-color: #8595f0;
+    font-family: 'Dela Gothic One', cursive;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3d55df;
+}
+
+input:focus, textarea:focus {
+    outline-color: #7c7c7c;
+}
+
+footer {
+    background-color: #3d55df7e;
+    color: #fff;
+    padding: 16px 0;
+}
+
+
+
+
+
+
+
+
+
+
